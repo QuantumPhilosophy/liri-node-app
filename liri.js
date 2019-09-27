@@ -137,7 +137,7 @@ function doWhatItSays () {
 // Functions for parsing args into a URL encoded string
 function getAllTheStrings (processToParse) {
   let allTheStrings = ''
-  for (var i = 1; i < processToParse.length; i++) {
+  for (let i = 1; i < processToParse.length; i++) {
     if (i > 1 && i < processToParse.length) {
       allTheStrings = allTheStrings + '+' + processToParse[i]
     } else {
@@ -150,7 +150,7 @@ function getAllTheStrings (processToParse) {
 // Functions for parsing args into a string
 function getAllTheStringsForSpotify (processToParse) {
   let allTheStrings = ''
-  for (var i = 1; i < processToParse.length; i++) {
+  for (let i = 1; i < processToParse.length; i++) {
     if (i > 1 && i < processToParse.length) {
       allTheStrings = allTheStrings + ' ' + processToParse[i]
     } else {
